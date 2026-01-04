@@ -8,7 +8,7 @@
 
 using namespace std;
 
-static inline string intToString(int v) {
+ static inline string intToString(int v) {
     ostringstream oss;
     oss << v;
     return oss.str();
@@ -293,4 +293,5 @@ int main() {
     Library lib;
     lib.run();
     return 0;
+
 }
